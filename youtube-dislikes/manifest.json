@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Ratio",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/watch*"
+      ],
+      "js": ["calcRatio.js"]
+    }
+  ]
+}
